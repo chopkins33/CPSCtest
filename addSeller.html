@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    <title>Edit Data</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="Scripts/addSeller.js"></script>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Flag Listing</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active" style="display: inline-flex;">
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="index.html" , _self>Appointments</a>
+
+
+
+
+
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="vh-100" style="background-color: #508bfc;">
+        <div class="container py-5 h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                    <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                        <div class="card-body p-5 text-center">
+
+                            <h3 class="mb-5">Type Row to Add</h3>
+
+                            <div class="form-outline mb-4">
+                                <input id="ID" type="number" class="form-control form-control-lg" />
+                                <label class="form-label" for="typeEmailX-2">Seller ID</label>
+                            </div>
+
+                            <div class="form-outline mb-4">
+                                <input type="text" id="email" class="form-control form-control-lg" />
+                                <label class="form-label" for="typePasswordX-2">Seller Email</label>
+                            </div>
+                            <div class="form-outline mb-4">
+                                <input type="text" id="name" class="form-control form-control-lg" />
+                                <label class="form-label" for="typePasswordX-2">Seller Name</label>
+                            </div>
+                            <script>
+
+                            </script>
+                            <!--  <button onclick="addData()">Insert Data</button>-->
+                            <button class="btn" onclick="addSeller()">Add Data</button>
+
+                            <hr class="my-4">
+
+
+                            <div id="message">
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+
+</html>
